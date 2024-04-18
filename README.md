@@ -1,7 +1,10 @@
 # 4.Execution_of_NetworkCommands
-## AIM :Use of Network commands in Real Time environment
-## Software : Command Prompt And Network Protocol Analyzer
-## Procedure: To do this EXPERIMENT- follows these steps:
+### AIM :
+Use of Network commands in Real Time environment
+### Software : 
+Command Prompt And Network Protocol Analyzer
+### Procedure: 
+To do this EXPERIMENT- follows these steps:
 <BR>
 In this EXPERIMENT- students have to understand basic networking commands e.g cpdump, netstat, ifconfig, nslookup ,traceroute and also Capture ping and traceroute PDUs using a network protocol analyzer 
 <BR>
@@ -27,8 +30,8 @@ This commands includes
 <BR>
 
 ### PROGRAM
-### PING COMMAND
-### CLIENT
+#### PING COMMAND
+#### CLIENT
 ```
 
 import socket 
@@ -44,7 +47,7 @@ while True:
     except KeyError: 
         c.send("Not Found".encode())
 ```
-### SERVER
+#### SERVER
 ```
 
 import socket 
@@ -56,7 +59,7 @@ while True:
     print(s.recv(1024).decode())
 ```
 
-### TRANCEROUTE COMMAND
+#### TRANCEROUTE COMMAND
 ```
 from scapy.all import* 
 target = ["www.google.com"] 
@@ -66,18 +69,18 @@ print(result,unans)
 
 
 
-## Output
-### PING COMMAND
-### CLIENT
-![image](https://github.com/AnkithaMopuri/4.Execution_of_NetworkCommends/assets/144979399/cb7aa4e7-6a26-42ed-a8f3-b11d264054d1)
+### Output
+#### PING COMMAND
+#### CLIENT
+![1](https://github.com/AnkithaMopuri/4.Execution_of_NetworkCommends/assets/93427011/909b3260-ed2c-4e56-a95f-0ea93a3b35d6)
 
-### SERVER
-![image](https://github.com/AnkithaMopuri/4.Execution_of_NetworkCommends/assets/144979399/df4502a3-e2ab-4ee8-a2bd-e43928a32fc0)
+#### SERVER
+![2](https://github.com/AnkithaMopuri/4.Execution_of_NetworkCommends/assets/93427011/bc9f816c-030a-4173-99cf-3d39505a64b8)
 
-### TRANCEROUTE COMMAND
-![image](https://github.com/AnkithaMopuri/4.Execution_of_NetworkCommends/assets/144979399/bee38982-7979-48ee-a3f2-4951a4f236ee)
+#### TRANCEROUTE COMMAND
+![3](https://github.com/AnkithaMopuri/4.Execution_of_NetworkCommends/assets/93427011/f4c84c3e-6286-4e29-9c82-c6055134b818)
 
 
 
-## Result
+### Result
 Thus Execution of Network commands Performed
