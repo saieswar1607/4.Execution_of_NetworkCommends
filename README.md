@@ -33,7 +33,6 @@ This commands includes
 #### PING COMMAND
 #### CLIENT
 ```
-
 import socket 
 from pythonping import ping 
 s=socket.socket() 
@@ -49,7 +48,6 @@ while True:
 ```
 #### SERVER
 ```
-
 import socket 
 s=socket.socket() 
 s.connect(('localhost',8000)) 
